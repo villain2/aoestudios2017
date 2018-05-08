@@ -1,0 +1,62 @@
+
+.creatorsSection {
+  overflow: hidden;
+  background: #fff;
+  padding: 50px 0 0 0;
+  height: 100%;
+  &.kchunter {
+    background: url('/assets/images/bg/kc-hunter-bg.png') left top no-repeat;
+    text-align: right;
+    color: #f3f4f5;
+    padding-top: 10%;
+    text-shadow: 0 0 20px #333;
+  }
+
+  &.clivereznor {
+    background: url('/assets/images/bg/clive-reznor-bg.png') left bottom no-repeat;
+    color: #f3f4f5;
+    padding-top: 12%;
+    text-shadow: 2px 2px #121212;
+  }
+
+
+  .btn {
+    a:link, a:active, a:visited {
+      color: #fff;
+    }
+    a:hover {
+      color: #dadada;
+      text-decoration: none;
+    }
+  }
+  img {
+    width: 75%;
+    height: auto;
+  }
+  p {
+    font-weight: 300;
+    line-height: 2.55rem;
+    font-size: 1.25em;
+  }
+  h2 {
+    color: #656565;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .creatorsSection {
+    p {
+      font-size: 1em;
+      line-height: 1.15em;
+    }
+
+    &.clivereznor {
+      background: url('/assets/images/bg/clive-reznor-bg.png') center center no-repeat;
+      color: #f3f4f5;
+      padding-top: 45%;
+      text-shadow: 0 0 20px #000;
+      font-size: 1.2em;
+    }
+  }
+
+}

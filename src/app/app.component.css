@@ -1,0 +1,33 @@
+mat-sidenav {
+  width: 300px; }
+
+.navigationLogoContainer {
+  z-index: 10;
+  position: fixed;
+  right: 2em;
+  top: 2.25em; }
+
+.navOpenBtn, .navOpenBtnLight {
+  cursor: pointer;
+  color: #000; }
+
+.navOpenBtnLight {
+  color: #fff; }
+
+a, .btn {
+  -webkit-transition: all 0.25s ease-out !important;
+  -moz-transition: all 0.25s ease-out !important;
+  -o-transition: all 0.25s ease-out !important;
+  transition: all 0.25s ease-out !important; }
+
+.logo {
+  width: 66px;
+  height: 48px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  position: fixed;
+  top: 1.75em;
+  left: 0.75em; }
+
+/*# sourceMappingURL=app.component.css.map */

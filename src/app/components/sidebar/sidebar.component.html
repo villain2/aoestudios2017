@@ -1,0 +1,40 @@
+<div class="sidebar" tabindex="-1">
+  <ul class="nav nav-pills nav-stacked">
+    <li><a title="Stories" role="listitem" href="#" routerLink="/">Stories</a></li>
+    <li><a title="Creators" role="listitem" href="#" routerLink="/creators">Creators</a></li>
+    <!--<li><a title="Series" role="listitem">Series</a></li>-->
+    <li><a title="Contact" role="listitem" href="#" routerLink="/contact">Contact</a></li>
+    <li><a title="Blog" role="listitem" href="http://blog.aoestudios.com" target="_blank">Blog</a></li>
+  </ul>
+
+  <div class="socialMediaContainer" role="navigation">
+     <ul>
+       <li class="facebook" role="button">
+         <a href="https://www.facebook.com/aoestudios" title="AOE Studios on Facebook" target="_blank" aria-label="Facebook">
+           <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+         </a>
+       </li>
+       <li class="twitter" role="button">
+         <a href="https://www.twitter.com/aoestudios" title="AOE Studios on Twitter" target="_blank" aria-label="Twitter">
+           <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+         </a>
+       </li>
+       <li class="googlePlus" role="button">
+         <a href="https://plus.google.com/+Aoestudios" title="AOE Studios on Google Plus" target="_blank" aria-label="Google Plus">
+           <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+         </a>
+       </li>
+       <li class="facebook" role="button">
+         <a href="https://www.instagram.com/aoestudios" title="AOE Studios on Instagram" target="_blank" aria-label="Instagram">
+           <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+         </a>
+       </li>
+     </ul>
+  </div>
+
+  <div class="mailingListContainer" role="contentinfo">
+    <h3>Get a FREE eBook</h3>
+    <button class="btn btn-primary btn-lg btn-info btn-raised btn-block" (click)="openDialog('YA')">YA / SciFi / Fantasy</button>
+    <button class="btn btn-primary btn-lg btn-info btn-raised btn-block" (click)="openDialog('horror')">Horror / Supernatural</button>
+  </div>
+</div>

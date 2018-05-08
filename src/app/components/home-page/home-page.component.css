@@ -1,0 +1,127 @@
+.middle-content {
+  margin-top: 5em; }
+
+.pageOne, .pageTwo, .pageThree, .pageFour {
+  overflow: hidden;
+  background: #fff;
+  padding: 50px 0 0 0;
+  height: 100%; }
+  .pageOne .btn a:link, .pageOne .btn a:active, .pageOne .btn a:visited, .pageTwo .btn a:link, .pageTwo .btn a:active, .pageTwo .btn a:visited, .pageThree .btn a:link, .pageThree .btn a:active, .pageThree .btn a:visited, .pageFour .btn a:link, .pageFour .btn a:active, .pageFour .btn a:visited {
+    color: #fff; }
+  .pageOne .btn a:hover, .pageTwo .btn a:hover, .pageThree .btn a:hover, .pageFour .btn a:hover {
+    color: #dadada;
+    text-decoration: none; }
+  .pageOne img, .pageTwo img, .pageThree img, .pageFour img {
+    width: 75%;
+    height: auto; }
+  .pageOne p, .pageTwo p, .pageThree p, .pageFour p {
+    font-weight: 300;
+    line-height: 2.55rem;
+    font-size: 1.25em; }
+  .pageOne h2, .pageTwo h2, .pageThree h2, .pageFour h2 {
+    color: #656565; }
+
+.pageTwo {
+  background: #000;
+  color: #fff; }
+  .pageTwo h2 {
+    color: #d81e05; }
+  .pageTwo img {
+    width: 100%; }
+
+.pageThree img {
+  width: auto; }
+.pageThree h2 {
+  color: #d81e05; }
+
+.pageThree {
+  color: #fff;
+  background: url("/assets/images/bg/warehouse.jpg") no-repeat 50% 50%; }
+
+.pageFour {
+  color: #fff;
+  background: url("/assets/images/bg/kana-cold-series.jpg") no-repeat 50% top; }
+  .pageFour h1 {
+    color: #000000; }
+  .pageFour h2 {
+    color: #56311c; }
+  .pageFour img {
+    width: 125%; }
+  .pageFour p {
+    color: #121212;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.45em; }
+  .pageFour hr {
+    color: #3a3c3e !important;
+    background-color: #3a3c3e !important; }
+
+.mobileDisplay {
+  display: none; }
+
+@media only screen and (max-width: 992px) {
+  .pageFour p {
+    font-size: 1em;
+    line-height: 1.2em; } }
+@media only screen and (max-width: 768px) {
+  .middle-content {
+    margin: 0; }
+
+  .pageOne p, .pageThree p {
+    font-size: 1.5rem;
+    line-height: 1.25em; }
+  .pageOne img, .pageThree img {
+    margin-left: 20%;
+    width: 75%;
+    height: 75%; }
+
+  .pageThree img {
+    width: 75%;
+    height: 75%;
+    margin-left: 10%; }
+
+  .pageFour {
+    padding-top: 70px;
+    background-position: 65% top; }
+    .pageFour img {
+      margin: 0 4px; }
+    .pageFour p {
+      font-size: 1.2em; }
+    .pageFour h2 {
+      color: #f3f4f5;
+      text-shadow: 2px 2px #0a0c0e; }
+
+  .nonMobile {
+    display: none; }
+
+  .mobileDisplay {
+    display: block; } }
+@media only screen and (max-width: 600px) {
+  .pageTwo, .pageThree {
+    padding-top: 60px; }
+    .pageTwo p, .pageThree p {
+      font-size: 0.8em;
+      line-height: 1.25em;
+      text-shadow: 2px 2px #000000; }
+    .pageTwo h1, .pageThree h1 {
+      font-size: 24px;
+      text-shadow: 2px 2px #000000; }
+    .pageTwo h2, .pageThree h2 {
+      font-size: 18px;
+      text-shadow: 2px 2px #000000; }
+    .pageTwo img, .pageThree img {
+      width: 130%;
+      height: 130%;
+      margin-left: -20px; }
+
+  .pageOne p {
+    display: none; }
+  .pageOne h1 {
+    font-size: 24px; }
+  .pageOne h2 {
+    font-size: 18px; }
+  .pageOne img {
+    width: 100%;
+    height: 100%; } }
+
+/*# sourceMappingURL=home-page.component.css.map */

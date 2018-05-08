@@ -1,0 +1,32 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.fullPage {
+  height: 100%;
+}
+
+.nav-pills:focus, .nav-pills:active, li:focus, li:active {
+  outline: none !important;
+}
+
+
+
+a, .btn {
+  -webkit-transition: all 0.25s ease-out !important;
+  -moz-transition: all 0.25s ease-out !important;
+  -o-transition: all 0.25s ease-out !important;
+  transition: all 0.25s ease-out !important;
+}
+
+.fp-auto-height, .fp-auto-height .fp-tableCell {
+  background: url("/assets/images/bg/slash_it.png") repeat 0 0;
+  height: 100px !important;
+
+  .footerRow {
+    color: #f3f4f5;
+    font-size: 0.85em;
+    padding-top: 42px;
+  }
+}

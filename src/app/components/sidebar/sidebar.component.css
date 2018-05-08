@@ -1,0 +1,64 @@
+mat-sidenav {
+  width: 300px; }
+
+mat-sidenav-container {
+  margin: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.sideNavBarOpen {
+  z-index: 3;
+  position: absolute;
+  width: 100px;
+  height: 50px; }
+
+.sidebar {
+  width: 300px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-left: 1px solid #dadada; }
+
+.nav-pills {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  font-size: 25px;
+  font-weight: 700;
+  color: #333 !important;
+  margin-top: 50px; }
+  .nav-pills a {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: #333;
+    cursor: pointer; }
+    .nav-pills a:hover {
+      background: none;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      color: #d81e05; }
+
+.socialMediaContainer {
+  margin: 20px;
+  padding: 30px 0 0 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  .socialMediaContainer ul li {
+    display: inline-block;
+    width: 42px;
+    height: 42px; }
+
+.mailingListContainer {
+  margin: 20px;
+  padding: 30px 0 0 0; }
+
+h3 {
+  font-weight: 300;
+  font-size: 2.125em;
+  margin-bottom: 12px; }
+
+/*# sourceMappingURL=sidebar.component.css.map */
